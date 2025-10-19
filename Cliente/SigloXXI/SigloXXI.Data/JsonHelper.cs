@@ -15,7 +15,7 @@ namespace SigloXXI.Data
     {
         public static string Token { get; set; }
 
-        public static string Url { get; set; } = "http://192.168.1.13:8082";
+        public static string Url { get; set; } = "http://localhost:8082";
         //public static string Url { get; set; } = "http://weasdf.ddns.net:8082";
 
         public static T Get(Dictionary<string, string> queryParams, string metodo)
